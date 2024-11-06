@@ -1,0 +1,345 @@
+/* Source Font from google */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* Body */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Navigation Bar Section Start */
+/* Header One Start */
+.header-one {
+  background-color: #00252e;
+  display: flex;
+  align-items: center;
+  height: 26px;
+}
+
+.header-one-nav {
+  margin-left: 208px;
+  display: flex;
+  gap: 24px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.header-one-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-one-socmed {
+  display: flex;
+  gap: 16px;
+  margin-right: 208px;
+  margin-left: 382px;
+}
+/* Header One End */
+
+/* Header Two Start */
+.header-two {
+  margin-top: 16px;
+  margin-left: 208px;
+  background-color: #ffffff;
+}
+
+.header-two-nav {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-two-nav a {
+  text-decoration: none;
+  color: #606062;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px;
+}
+
+#angle-down {
+  margin-left: 4px;
+}
+
+#search {
+  margin-left: 165px;
+  margin-right: 208px;
+}
+
+/* Header Two End */
+/* Navigation Bar Section End */
+
+/* ========================== */
+
+/* Banner Section Start */
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 482px;
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.511);
+  z-index: 1;
+}
+
+.banner-content {
+  color: white;
+  width: 1024px;
+  position: absolute;
+  top: 80px;
+  left: 208px;
+  right: 208px;
+  bottom: 80px;
+  z-index: 2;
+}
+.banner-content h5,
+h1 {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.banner-content h5 {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.banner-content h1 {
+  font-weight: 600px;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.banner-content .banner-content-para {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.name-author {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.name-author p {
+  font-size: 12px;
+  font-weight: 400px;
+  line-height: 18px;
+}
+
+.name-author span {
+  font-weight: bold;
+}
+
+/* Banner Section End */
+
+/* ================== */
+
+/* Main Content Section Start */
+
+.content {
+  padding: 80px 208px 80px 208px;
+  display: flex;
+  gap: 24px;
+}
+
+.container-1 {
+  width: 651px;
+}
+
+.isi-artikel {
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.isi-artikel h4 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.isi-artikel ol {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.isi-artikel li {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #019fc4;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.isi-artikel li a {
+  text-decoration: none;
+  color: #019fc4;
+  margin-top: 8px;
+}
+
+.container-1 .img-2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.isi-content p,
+li {
+  text-align: justify;
+}
+
+.keyword {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.keyword span {
+  font-weight: 700;
+}
+
+.container-2 {
+  width: 325px;
+}
+
+.card {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.container-2 h4 {
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+
+.info a {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  text-decoration: none;
+  color: black;
+}
+/* Main Content Section End */
+
+/* ======================== */
+
+/* Footer Section Start */
+
+.footer {
+  padding: 80px 208px 80px 208px;
+}
+
+.container-3 {
+  display: flex;
+  width: 1024px;
+  gap: 80px;
+}
+
+.company {
+  width: 464px;
+}
+
+.company h5 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.company p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.social-media {
+  display: flex;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.social-media .logo {
+  background-color: #dbf8ff;
+  width: 48px;
+  height: 48px;
+  border-radius: 99px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo i {
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.services,
+.pages {
+  width: 200px;
+}
+
+.services-title,
+.pages-title {
+  margin-bottom: 24px;
+}
+
+.list-services,
+.list-pages {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-services a,
+.list-pages a {
+  text-decoration: none;
+  margin-bottom: 16px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #019fc4;
+}
+
+.container-4 {
+  width: 1024px;
+  height: 45px;
+  margin-top: 80px;
+}
+
+.container-4 p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #595959;
+}
+
+/* Footer Section End */

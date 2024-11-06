@@ -1,0 +1,289 @@
+/* Source Font from google */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* Body */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Navigation Bar Section Start */
+/* Header One Start */
+.header-one {
+  background-color: #00252e;
+  display: flex;
+  align-items: center;
+  height: 26px;
+}
+
+.header-one-nav {
+  margin-left: 208px;
+  display: flex;
+  gap: 24px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.header-one-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-one-socmed {
+  display: flex;
+  gap: 16px;
+  margin-right: 208px;
+  margin-left: 382px;
+}
+/* Header One End */
+
+/* Header Two Start */
+.header-two {
+  margin-top: 16px;
+  margin-left: 208px;
+  background-color: #ffffff;
+}
+
+.header-two-nav {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-two-nav a {
+  text-decoration: none;
+  color: #606062;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px;
+}
+
+#angle-down {
+  margin-left: 4px;
+}
+
+#search {
+  margin-left: 165px;
+  margin-right: 208px;
+}
+
+/* Header Two End */
+/* Navigation Bar Section End */
+
+/* ==================================== */
+
+/* Main Content 1 Section Start */
+
+.content-1 {
+  padding: 80px 208px 80px 208px;
+  background: linear-gradient(to bottom, rgba(172, 169, 169, 0.292), #ffffff);
+}
+
+.container-content-1 {
+  display: flex;
+  gap: 24px;
+}
+
+.container-1 {
+  width: 500px;
+  height: 573px;
+}
+
+.container-1 h5 {
+  margin-top: 0px;
+  margin-bottom: 4px;
+  color: #606062;
+}
+
+.container-1 h4 {
+  margin-top: 0px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 4px;
+}
+
+.name-author {
+  display: flex;
+  gap: 8px;
+}
+
+.name-author p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.container-2 {
+  width: 500px;
+  height: 573px;
+  position: relative;
+}
+
+.trending {
+  background-color: #019fc4;
+  border-radius: 4px 4px 0 4px;
+  padding: 8px 16px 8px 16px;
+  color: white;
+  width: 469px;
+  height: 30px;
+  position: relative;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.trending-box {
+  position: absolute;
+  background-color: rgb(235, 232, 232);
+  width: 400px;
+  height: 37px;
+  top: 0;
+  right: 0px;
+  border-radius: 0 0 0 4px;
+}
+
+.card-items1 {
+  display: flex;
+  margin-top: 24px;
+  gap: 24px;
+}
+
+.card-items2 {
+  display: flex;
+  margin-top: 24px;
+  gap: 24px;
+}
+.items2 h5 {
+  margin-top: 0px;
+  margin-bottom: 4px;
+  color: #606062;
+}
+
+.items2 h4 {
+  margin-top: 0px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 4px;
+}
+
+.items2 {
+  width: 238px;
+  height: 220px;
+}
+
+.arrow-btn {
+  display: flex;
+  gap: 8px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.btn-left,
+.btn-right {
+  width: 28px;
+  height: 24px;
+  border: 1px solid #019fc4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+/* Main Content 1 Section End */
+
+/* ==================================== */
+
+/* Main Content 2 Section Start */
+
+.content-2 {
+  padding: 80px 208px 80px 208px;
+  display: flex;
+}
+
+.terbaru {
+  background-color: #019fc4;
+  border-radius: 4px 4px 0 4px;
+  padding: 8px 16px 8px 16px;
+  color: #ffffff;
+  width: 736px;
+  height: 30px;
+  position: relative;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.terbaru-box {
+  position: absolute;
+  background-color: white;
+  width: 631px;
+  height: 37px;
+  top: 0;
+  right: 0px;
+  border-radius: 0 0 0 4px;
+}
+
+.items3 {
+  display: flex;
+  margin-top: 24px;
+  width: 762px;
+}
+
+.desc {
+  margin-left: 16px;
+  width: 546px;
+  height: 108px;
+}
+
+.desc h5 {
+  margin-top: 0px;
+  margin-bottom: 4px;
+  color: #606062;
+}
+
+.desc h4 {
+  margin-top: 0px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 4px;
+}
+
+.desc p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.container-4 {
+  width: 220px;
+  height: 800px;
+  margin-left: 24px;
+  background-color: #004e60;
+  color: white;
+  padding: 16px 0 16px 16px;
+  border-radius: 8px;
+}
+
+.rekomendasi {
+  width: 206px;
+  border-bottom: 2px solid white;
+  margin-bottom: 16px;
+}
+
+.rekomendasi h4 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.items4 p {
+  margin-top: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+}
+/* Main Content 2 Section End */
